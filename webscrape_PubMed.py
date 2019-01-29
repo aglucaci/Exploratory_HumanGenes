@@ -6,7 +6,7 @@ Created on Wed Jan 16 14:31:24 2019
 @author: alexander lucaci
 
 a simple tool which uses gene names (Human Proteome Project) to find number of articles associated with a gene (Bibliography)
-
+REF: https://en.wikipedia.org/wiki/List_of_human_genes
 """
 # =============================================================================
 # imports
