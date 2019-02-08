@@ -1,9 +1,8 @@
 Accessible @ http://htmlpreview.github.io/?https://github.com/aglucaci/Exploratory_HumanGenes/master/index.html
 
 <script type = "text/javascript">
-  
-  $(document).ready(function() {
-    $.ajax({
+$(document).ready(function() {
+   $.ajax({
         type: "GET",
         url: "02052019_output.csv",
         dataType: "text",
@@ -27,9 +26,8 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
-    // alert(lines);
+    alert(lines);
 }
-  
 </script>
 
 Done.
