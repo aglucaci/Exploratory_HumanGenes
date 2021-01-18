@@ -9,6 +9,8 @@ $(document).ready(function() {
         success: function(data) {processData(data);}
      });
 });
+   
+console.log("Loading");
 
 function processData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
